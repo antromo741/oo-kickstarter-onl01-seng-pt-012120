@@ -2,7 +2,7 @@ class Project
 
     attr_reader :title , :backers
 
-    def new(title)
+    def new
         @title = title
         @backers = []
     end
